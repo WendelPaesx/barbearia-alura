@@ -27,15 +27,43 @@
     <main>
         <form action="">
             <label for="nomesobrenome">Nome e sobrenome</label>
-            <input type="text" id="nomesobrenome">
+            <input type="text" id="nomesobrenome" placeholder="Nome e sobrenome" required>
 
             <label for="email">Email</label>
-            <input type="text" id="email">
+            <input type="email" id="email" placeholder="digite seu Email aqui" required>
 
             <label for="telefone">Telefone</label>
-            <input type="text" id="telefone">
+            <input type="tel" id="telefone" placeholder="Ex: (xx)xx xxxxx-xxxx" required>
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="Mensagem" id="mensagem" cols="50" rows="10"></textarea>
+
+            <fieldset>
+                <legend>Como prefere o nosso contato?</legend>
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email" class="checkbox">Email</label>
+                
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone" class="checkbox">Telefone</label>
+                
+                <label for="radio-whatapp"><input type="radio" name="contato" value="whatsapp" id="radio-whataspp" class="checkbox" checked> WhatsApp</label>
+                
+
+            </fieldset>
+            
+              <fieldset>
+                <legend> Qual horario quer ser atendido?</legend>
+                 <select name="hora" id="horario">
+                     <option value="manha">Manhã</option>
+                     <option value="tarde">Tarde</option>
+                     <option value="noite">Noite</option>
+                 </select>
+              </fieldset>
+
+            <label><input type="checkbox" name="" id=""> Gostaria de receber nossas novidades por email? </label>
+
 
             <input type="submit" value="Enviar formulario">
+
+
         </form>
 
     </main>

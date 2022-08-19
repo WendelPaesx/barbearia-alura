@@ -108,16 +108,25 @@ form{
 	margin-bottom: 40px;
 
 }
-form > label{
+form > label,legend{
 	font-size: 1.1em;
 	font-weight: 600;
 	display: block;
 	padding: 5px;
 }
-form > input{
+form > input, textarea{
 	display: block;
 	padding: 10px;
 	margin: 5px;
 	width: 50vw;
 
+
+}
+
+div > label {
+	display: block;
+}
+.checkbox{
+	margin: 10px;
+	padding: 2px;
 }
