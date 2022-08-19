@@ -1,11 +1,19 @@
+
 header {
+
+	max-width: 100vw;
 	background: #BBBBBB;
-	padding: 20px 0;
+	padding:  ;
 }
+header h1{
+	max-width: 95vw;
+	padding: 20px auto;
+}
+
 
 .caixa {
 	position: relative;
-	width: 940px;
+	width: 97vw;
 	margin: 0 auto;
 }
 
@@ -32,16 +40,21 @@ nav a:hover {
 	color: #C78C19;
 	text-decoration: underline;
 }
-.main-conteudo{
-	margin-left: 15vw;
-}
-.produtos {
 
-	width: 940px;
-	margin: 0 auto;
+.produtos {
+	
+	display: inline;
+	width: 97vw;
+	margin: 0 ;
 	padding: 50px 0;
 	
 	
+}
+.main-conteudo{
+	display: block;
+	max-width: 97vw;
+	min-width: 300px;
+	margin: 10vh 15vw ;
 }
 
 .produtos li {
@@ -54,7 +67,10 @@ nav a:hover {
 	box-sizing: border-box;
 	border: 2px solid #000000;
 	border-radius: 10px;
+	min-width: 150px;
+	min-height: 150px;
 }
+
 
 .produtos li:hover {
 	border-color: #C78C19;
@@ -84,7 +100,7 @@ nav a:hover {
 }
 footer{
 	padding: 10px;
-	width: 97vw;
+	max-width: 97vw;
 	background-color: black;
 	text-align: center;
 	
