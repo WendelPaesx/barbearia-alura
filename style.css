@@ -98,3 +98,26 @@ footer > p > a{
 footer > p > a:hover{
 	color: darkslateblue;
 }
+
+main{
+	width: 940px;
+	margin: 40px;
+}
+form{
+	margin-top: 40px;
+	margin-bottom: 40px;
+
+}
+form > label{
+	font-size: 1.1em;
+	font-weight: 600;
+	display: block;
+	padding: 5px;
+}
+form > input{
+	display: block;
+	padding: 10px;
+	margin: 5px;
+	width: 50vw;
+
+}
