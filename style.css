@@ -32,11 +32,16 @@ nav a:hover {
 	color: #C78C19;
 	text-decoration: underline;
 }
-
+.main-conteudo{
+	margin-left: 15vw;
+}
 .produtos {
+
 	width: 940px;
 	margin: 0 auto;
 	padding: 50px 0;
+	
+	
 }
 
 .produtos li {
@@ -108,7 +113,7 @@ form{
 	margin-bottom: 40px;
 
 }
-form > label,legend{
+form > label,legend {
 	font-size: 1.1em;
 	font-weight: 600;
 	display: block;
@@ -123,10 +128,40 @@ form > input, textarea{
 
 }
 
-div > label {
-	display: block;
-}
+
 .checkbox{
 	margin: 10px;
 	padding: 2px;
+}
+.enviar{
+	width: 40vw;
+	padding: 10px;
+	background-color: #C78C19;
+	color: white;
+	font-weight: bold;
+	border: none;
+	border-radius: 10px;
+	transition: 1s ;
+	cursor: pointer;
+	
+}
+
+.enviar:hover{
+	background-color: darkorange;
+	transform: scale(1.1);
+
+}
+table{
+	margin: 20px;
+}
+thead{
+
+	background-color: #555555;
+	color: white;
+	
+}
+
+td,th{
+	padding:10px 20px;
+	border: 1px solid black;
 }
