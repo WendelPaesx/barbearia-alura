@@ -1,21 +1,45 @@
+*{
+	margin: 0%;
+}
 #banner {
-	 ;
+	background-color: black;
+	background-image: url(banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center right;
+	
+	width: 90vw;
+	height: 50vh;
+	margin: 20px;
+	
 
 	
 	
 }
 
 .principal{
+	width: 90vw;
+	
 	background: #CCCCCC;
 	padding: 30px;
+	
+
+}
+.principal p{
+	padding: 5px;
+	margin: 10px;
 }
 
 .titulo-principal {
 	padding-left: 20px;
+	
 }
 
 .titulo-centralizado {
-	text-align: center
+	text-align: center;
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 2em;
+	 
 }
 
 p {
