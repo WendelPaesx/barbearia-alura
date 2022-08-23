@@ -280,6 +280,11 @@ ul {
 .itens:nth-child(2n){
 	font-weight: bold;
 }
+.itens:before {
+    content: "★";
+	padding: 5px;
+}
+
 .imagem-beneficios {
 	width: 60%;
 }
@@ -294,7 +299,7 @@ ul {
 
 }
 body{
-	background: linear-gradient(#ffffff, #888888);
+	background: linear-gradient(#ffffff 60%, #88888880);
 	font-family: 'Montserrat', sans-serif;
 	
 }
