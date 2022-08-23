@@ -18,7 +18,8 @@ header h1{
 }
 
 nav {
-	position: absolute;
+	display: inline-block;
+	position:absolute;
 	top: 110px;
 	right: 0;
 }
@@ -100,7 +101,7 @@ nav a:hover {
 }
 footer{
 	padding: 10px;
-	max-width: 97vw;
+	max-width: 98vw;
 	background-color: black;
 	text-align: center;
 	
@@ -181,3 +182,93 @@ td,th{
 	padding:10px 20px;
 	border: 1px solid black;
 }
+
+/* pagina Home */
+
+*{
+	margin: 0%;
+}
+.banner {
+	
+
+
+	width: 94.5vw;
+	
+	
+
+	
+	
+}
+
+.principal{
+	
+	width: 90vw;
+	background: #cccccc65;
+	padding: 30px;
+	clear: left;
+	
+	
+
+}
+.principal p{
+	padding: 5px;
+	margin: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	line-height: 1.3em;
+	
+}
+
+.titulo-principal {
+	padding-left: 20px;
+	text-align: center;
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 2em;
+	
+}
+p {
+	text-align: center;
+}
+
+#missao {
+	display: block;
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	
+	font-size: 1.5em;
+}
+
+em strong {
+	color: #FF0000;
+}
+
+.itens {
+	font-style: italic
+}
+
+.beneficios {
+	background: #FFFFFF;
+	padding: 20px;
+}
+
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+.imagembeneficios {
+	width: 60%;
+}
+.utensilios{
+	width: 150px;
+	float:left;
+	margin: 5px;
+
+}
+body{
+	
+		font-family: 'Montserrat', sans-serif;
+	
+}
+
