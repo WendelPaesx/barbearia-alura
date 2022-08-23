@@ -192,12 +192,10 @@ td,th{
 	
 }
 .banner {
-	
+	margin: 0;
+	padding: 0;
 
-
-	width: 94.5vw;
-	
-	
+	width: 93.5vw;
 
 	
 	
@@ -251,6 +249,7 @@ em strong {
 }
 
 .beneficios {
+	width: 93vw;
 	background: #FFFFFF;
 	padding: 20px;
 }
