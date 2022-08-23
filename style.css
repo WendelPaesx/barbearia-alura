@@ -204,7 +204,6 @@ td,th{
 .principal{
 	
 	width: 93vw;
-	background: #cccccc65;
 	padding-top: 30px;
 	padding-right: 0px;
 	clear: left;
@@ -249,7 +248,7 @@ em strong {
 .beneficios {
 	width: 93vw;
 	background: #FFFFFF;
-	padding: 20px;
+	
 }
 
 ul {
@@ -269,7 +268,7 @@ ul {
 	margin: 62px auto;
 	align-content: space-between;
 	width: 30%;
-	text-decoration: line-through;
+	text-decoration: wavy;
 	
 	
 	
@@ -278,7 +277,7 @@ ul {
 	line-height: 2.5em;
 
 }
-.itens:first-child{
+.itens:nth-child(2n){
 	font-weight: bold;
 }
 .imagem-beneficios {
@@ -300,11 +299,16 @@ body{
 	
 }
 .mapa{
-	width: 93vw;
+	margin: 10px;
+	width: 90vw;
 	text-align: center;
 	padding: auto 40px;
 	align-items:center ;
 
+}
+.mapa-conteudo{
+	width: 940;
+	margin: 0 auto;
 }
 .mapa p{
 	margin: 0 0 30px;
