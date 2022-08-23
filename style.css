@@ -6,6 +6,7 @@ header {
 	padding:  ;
 }
 header h1{
+	margin-left: 10vw;
 	max-width: 95vw;
 	padding: 20px auto;
 }
@@ -25,7 +26,7 @@ nav {
 }
 
 nav li {
-	display: inline;
+	display: inline-block;
 	margin: 0 0 0 15px;
 }
 
@@ -123,7 +124,8 @@ footer > p > a:hover{
 
 main{
 	width: 940px;
-	margin: 40px;
+	
+	margin:0 50px;
 }
 form{
 	margin-top: 40px;
@@ -187,6 +189,7 @@ td,th{
 
 *{
 	margin: 0%;
+	
 }
 .banner {
 	
@@ -202,10 +205,12 @@ td,th{
 
 .principal{
 	
-	width: 90vw;
+	width: 93vw;
 	background: #cccccc65;
-	padding: 30px;
+	padding-top: 30px;
+	padding-right: 0px;
 	clear: left;
+	margin-bottom: 20px;
 	
 	
 
@@ -268,7 +273,24 @@ ul {
 }
 body{
 	
-		font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	
 }
+.mapa{
+	width: 93vw;
+	text-align: center;
+	padding: auto 40px;
+	align-items:center ;
+
+}
+.mapa p{
+	margin: 0 0 30px;
+}
+ h3{
+	
+	font-size: 2em;
+	margin: 20px;
+	
+}
+
 
