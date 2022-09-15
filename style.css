@@ -2,7 +2,7 @@
 header {
 
 	max-width: 100vw;
-	background: #BBBBBB;
+	background: #BBBBBB ;
 	
 }
 header > h1{
@@ -22,7 +22,8 @@ header > h1{
 
 .nav {
 	display: flex;
-	align-items: center;
+    align-items: center;
+    justify-content: center;
 	
 	
 }
@@ -130,6 +131,7 @@ footer > p > a:hover{
 
 main{
 	width: 440px;
+	padding: auto;
 	
 	
 }
